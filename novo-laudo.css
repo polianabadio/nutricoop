@@ -6,11 +6,10 @@
 #inicial{
     font-size: 1.5vh;
     position: absolute;
-    margin-top: 0%;
     white-space: nowrap;
     display: inline-block;
     display: flex;
-    margin-top: 0%;
+    top: 4vh;
     margin-left: 3%;
 }
 h2{
@@ -41,7 +40,7 @@ hr {
     color:#009D51;
     font-family: 'Roboto';
     position: absolute;
-    top: 14%;
+    top: 14vh;
     font-size: 3vh;
   }
 
@@ -51,7 +50,7 @@ hr {
     position: absolute;
     width: 70%;
     margin-left: 15%;
-    margin-top: 2%;
+    top: 15vh;
   }
 
   label{
@@ -63,7 +62,7 @@ hr {
     position: absolute;
     width: 70%;
     margin-left: 16%;
-    margin-top: 4%;
+    top: 23vh;
   }
 
   #input-nome{
@@ -80,8 +79,8 @@ hr {
   }
 
   #segunda-linha{
-    position: absolute;
-    margin-top:2%;
+    position: relative;
+    top:2vh;
   }
 
   #input-propriedade, #input-municipio, #input-talhao{
@@ -94,29 +93,29 @@ hr {
     color:#009D51;
     font-family: 'Roboto';
     position: absolute;
-    top: 42%;
+    top: 37vh;
     font-size: 3vh;
   }
 
   #linha3{
     border: none;
     border-top: 1px solid #009D51;
-    position: absolute;
+    position: relative;
     width: 70%;
     margin-left: 15%;
-    margin-top: 15%;
+    top: 27vh;
   }
 
   #macronutrientes{
     position: absolute;
-    margin-top: 17%;
+    top: 50vh;
     width: 70%;
     margin-left: 15%;
   }
 
   #input-macronutrientes{
     position: absolute;
-    margin-top: 25%;
+    top: 66vh;
     width: 70%;
     margin-left: 15%;
   }
@@ -127,13 +126,13 @@ hr {
 
   #micronutrientes{
     position: absolute;
-    margin-top: 35%;
+    top: 82vh;
     width: 70%;
     margin-left: 15%;
   }
   #input-micronutrientes{
     position: absolute;
-    margin-top: 43%;
+    top: 98vh;
     width: 70%;
     margin-left: 15%;
   }
@@ -147,7 +146,7 @@ hr {
     color:#009D51;
     font-family: 'Roboto';
     position: absolute;
-    top: 78%;
+    top: 71vh;
     font-size: 3vh;
   }
 
@@ -157,14 +156,13 @@ hr {
     position: absolute;
     width: 70%;
     margin-left: 15%;
-    margin-top: 32.5%;
+    top: 73vh;
   }
 
   #btn-send{
-    position:relative;
-    margin-top: 52%;
-    margin-left: 40%;
-    margin-bottom: 3%;
+    position:absolute;
+    top: 110vh;
+    margin-left: 38%;
   }
 
   #btn-input-cancelar{
@@ -209,4 +207,11 @@ hr {
   }
   #btn-input-gerar:hover{
     background-color: #C7C7C7;
+  }
+
+  #fim{
+    position: absolute;
+    height: 3vh;
+    top:116vh;
+    width: 90%;
   }

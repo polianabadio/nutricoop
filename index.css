@@ -11,7 +11,7 @@
 position: absolute;
 width: 40%;
 left: 60%;
-top: 18%;
+top: 30vh;
 }
 
 #logo-sub{
@@ -28,7 +28,7 @@ width: 10%;
     left: 68%;
     top: 5%;
     width: 10%;
-    height: 8%;
+    height: 7vh;
     font-family: 'Inter';
     background-color: #00562B;
     font-weight: bold;
@@ -40,11 +40,6 @@ width: 10%;
 
 #area-consultor:hover{
 background-color: #039E50;
-}
-
-#button-area-analise{
-    color:white;
-    text-decoration: none;
 }
 
 h1{
@@ -68,10 +63,10 @@ h1{
 
 #area-analise{
         position: absolute;
-        margin-top: 40%;
+        top: 85vh;
         margin-left: 12%;
         width: 12%;
-        height: 8%;
+        height: 7vh;
         font-family: 'Inter';
         background-color: #00562B;
         font-weight: bold;
@@ -94,7 +89,7 @@ h1{
     position: absolute;
     z-index: 9999;
     width: 30%;
-    height: 80%;
+    height: 75vh;
     background-color: white;
     margin-top: 6%;
     margin-left: 35%;

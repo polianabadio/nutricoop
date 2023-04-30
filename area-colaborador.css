@@ -1,0 +1,21 @@
+
+#fundo{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    height:100%;
+    top: 0%;
+    }
+
+#novo-laudo{
+    z-index: 9999;
+    position: absolute;
+    margin-left: 30%;
+    top:28vh;
+}
+
+#relatorios{
+    position: absolute;
+    top:28vh;
+    margin-left: 55%;
+}
