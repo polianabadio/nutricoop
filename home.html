@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUTRICOOP</title>
+    <link rel="stylesheet" href="home.css">
+    
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="shortcut icon" type="image/png" href="img/Group 120.png">
+    <script src="home.js"></script>
+</head>
+<body>
+    <img src="img/Group 15.png" id="logo-inicial">
+    <img src="img/Rectangle 12.png" id="imagem-inicial">
+    <img src="img/Group.png" id="logo-sub">
+
+    <div id="area-consultor"><a id="button-area-analise" href="login.html"><p>Área Consultor</p></a></div>
+    <div id="texto-inicial">
+    <h1 id="texto-normal">A nova solução da Comigo para aumentar a sua produtividade na medida certa.</h1>
+    <h1 id="texto-negrito">Cuide de suas folhas, e colha mais grãos!</h1>
+    </div>
+
+    <div id="area-analise"><a onclick="mostrar()" id="button-area-analise" href="#"><p>Solicite sua análise</p></a></div>
+
+    <div id="modal-cooperador">
+        <form>
+            <a id="fechar" onclick="ocultar()" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg></a>
+            <img id="logo-login" src="img/Group 15.png">
+            <h1 id="titulo-modal">Dados do Cooperado</h1>
+            <label>Nome Completo:</label><br>
+            <input type="text"  id="nome-completo"><br>
+            <label>CPF:</label><br>
+            <input type="text" id="cpf"><br>
+            <label>Telefone:</label><br>
+            <input type="text" id="telefone"><br>
+            <label>Filial:</label><br>
+            <input type="text" id="filial"><br>
+
+            <input id="btn-entrar" type="submit" value="Enviar" >
+            
+          </form>
+</body>
+</html>

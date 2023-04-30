@@ -1,0 +1,212 @@
+#logo-login{
+    position: absolutes;
+    margin-left: 3%;
+}
+
+#inicial{
+    font-size: 1.5vh;
+    position: absolute;
+    margin-top: 0%;
+    white-space: nowrap;
+    display: inline-block;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+h2{
+    color:#009D51;
+    font-family: 'Roboto';
+    margin-left: 3%;
+}
+#btn-2{
+    color:rgba(128, 144, 121, 1);
+}
+
+#seta{
+    color:rgba(128, 144, 121, 1);
+}
+
+#btn-1:hover{
+    color: rgba(128, 144, 121, 1);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 3% 0;
+  }
+
+  #titulo-dados-cadastrais{
+    margin-left: 16%;
+    color:#009D51;
+    font-family: 'Roboto';
+    position: absolute;
+    top: 14%;
+    font-size: 3vh;
+  }
+
+  #linha2{
+    border: none;
+    border-top: 1px solid #009D51;
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+  }
+
+  label{
+    color:#009D51;
+    font-family: 'Roboto';
+  }
+
+  #cadastro{
+    position: absolute;
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 4%;
+  }
+
+  #input-nome{
+    width: 50%;
+  }
+  #input-matricula{
+    width: 20%;
+  }
+
+  input{
+    height: 4vh;
+    background-color: rgba(242, 242, 242, 1);
+    border: 1px solid transparent;
+  }
+
+  #segunda-linha{
+    position: absolute;
+    margin-top:2%;
+  }
+
+  #input-propriedade, #input-municipio, #input-talhao{
+    width: 16.1vw;
+    
+  }
+
+  #titulo-macronutrientes{
+    margin-left: 16%;
+    color:#009D51;
+    font-family: 'Roboto';
+    position: absolute;
+    top: 42%;
+    font-size: 3vh;
+  }
+
+  #linha3{
+    border: none;
+    border-top: 1px solid #009D51;
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+
+  #macronutrientes{
+    position: absolute;
+    margin-top: 17%;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #input-macronutrientes{
+    position: absolute;
+    margin-top: 25%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  #input-fosforo,#input-calcio,#input-enxofre,#input-magnesio,#input-nitrogenio,#input-postassio{
+    width: 14.6%;
+    margin-left: 1%;
+  }
+
+  #micronutrientes{
+    position: absolute;
+    margin-top: 35%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  #input-micronutrientes{
+    position: absolute;
+    margin-top: 43%;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #input-boro,#input-cobre, #input-ferro, #input-manganes, #input-zinco{
+    width: 18%;
+    margin-left: 1.01%;
+  }
+  #titulo-micronutrientes{
+    margin-left: 16%;
+    color:#009D51;
+    font-family: 'Roboto';
+    position: absolute;
+    top: 78%;
+    font-size: 3vh;
+  }
+
+  #linha4{
+    border: none;
+    border-top: 1px solid #009D51;
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 32.5%;
+  }
+
+  #btn-send{
+    position:relative;
+    margin-top: 52%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+  }
+
+  #btn-input-cancelar{
+    background-color: #009D51;
+    height: 100vh;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  #btn-input-salvar{
+    background-color: #009D51;
+    height: 6vh;
+    width: 7.5vw;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  #btn-input-gerar{
+    background-color: #009D51;
+    height: 6vh;
+    width: 8.5vw;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    color:white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+  #btn-input-cancelar:hover{
+    background-color: #C7C7C7;
+  }
+  #btn-input-salvar:hover{
+    background-color: #C7C7C7;
+  }
+  #btn-input-gerar:hover{
+    background-color: #C7C7C7;
+  }

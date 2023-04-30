@@ -1,0 +1,159 @@
+
+
+#logo-inicial{
+    position: absolute;
+    width: 20%;
+    left: 10%;
+    top: 12%;
+}
+
+#imagem-inicial{
+position: absolute;
+width: 40%;
+left: 60%;
+top: 18%;
+}
+
+#logo-sub{
+position: absolute;
+left: 80%;
+right: 5%;
+top: 6.48%;
+bottom: 87.97%;
+width: 10%;
+}
+
+#area-consultor{
+    position: absolute;
+    left: 68%;
+    top: 5%;
+    width: 10%;
+    height: 8%;
+    font-family: 'Inter';
+    background-color: #00562B;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#area-consultor:hover{
+background-color: #039E50;
+}
+
+#button-area-analise{
+    color:white;
+    text-decoration: none;
+}
+
+h1{
+    width: 40%;
+    color: #00562B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 5vh;
+
+}
+
+#texto-inicial{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 12%;
+}
+
+#texto-normal{
+    font-weight: 10;
+}
+
+#area-analise{
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 12%;
+        width: 12%;
+        height: 8%;
+        font-family: 'Inter';
+        background-color: #00562B;
+        font-weight: bold;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+}
+
+#button-area-analise{
+    color:white;
+    text-decoration: none;
+}
+
+#area-analise:hover{
+    background-color: #039E50 ;
+}
+
+#modal-cooperador{
+    position: absolute;
+    z-index: 9999;
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    margin-top: 6%;
+    margin-left: 35%;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#titulo-modal{
+    font-size: 3vh;
+    white-space: nowrap;
+    
+}
+#logo-login{
+    position: relative;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+h1,label{
+    margin-left: 10%;
+    position: relative;
+    margin-top: 3%;
+}
+
+#cpf,#telefone,#nome-completo,#filial{
+    height: 4.5vh;
+    border-radius: 0;
+    width: 80%;
+    margin-left: 10%;
+    border: 3px;
+    margin-top: 1.5%;
+    background-color: #C7C7C7;
+    margin-bottom: 1.5%;
+    border-radius: 5px;
+}
+
+#btn-entrar{
+    height: 6vh;
+    width: 6vw;
+    margin-left: 40%;
+    margin-top: 3%;
+    background-color: #2185D0;
+    border-radius: 5px;
+    color: white;
+    
+}
+#btn-esqueci-minha-senha{
+    margin-left: 3%;
+}
+
+#btn-entrar:hover{
+    background-color: #C7C7C7;
+}
+
+#fechar{
+    position: absolute;
+    margin-left: 90%;
+    top: 4%;
+}
+

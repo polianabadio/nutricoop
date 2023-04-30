@@ -1,0 +1,74 @@
+#fundo{
+position: absolute;
+width: 100%;
+left: 0%;
+height:100%;
+top: 0%;
+}
+
+
+
+#logo-login{
+    position: relative;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#div-login{
+    position: absolute;
+    z-index: 9999;
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    margin-top: 6%;
+    margin-left: 35%;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display:block;
+}
+
+
+h1,label{
+    margin-left: 10%;
+    position: relative;
+    margin-top: 3%;
+}
+#senha,#email{
+    height: 4.5vh;
+    border-radius: 0;
+    width: 80%;
+    margin-left: 10%;
+    border: 3px;
+    margin-top: 3%;
+    background-color: #C7C7C7;
+    border-radius: 5px;
+}
+
+#btn-entrar{
+    height: 6vh;
+    width: 6vw;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: #2185D0;
+    border-radius: 5px;
+    color: white;
+    
+}
+#btn-esqueci-minha-senha{
+    margin-left: 3%;
+}
+
+#btn-entrar:hover{
+    background-color: #C7C7C7;
+}
+
+#fechar{
+    position: absolute;
+    margin-left: 90%;
+    top: 4%;
+}
+
+
+

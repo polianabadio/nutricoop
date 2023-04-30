@@ -1,0 +1,37 @@
+#logo-login{
+    position: absolutes;
+    margin-left: 3%;
+}
+
+#inicial{
+    font-size: 1.5vh;
+    position: absolute;
+    margin-top: 0%;
+    white-space: nowrap;
+    display: inline-block;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+h2{
+    color:#009D51;
+    font-family: 'Roboto';
+    margin-left: 3%;
+}
+#btn-2{
+    color:rgba(128, 144, 121, 1);
+}
+
+#seta{
+    color:rgba(128, 144, 121, 1);
+}
+
+#btn-1:hover{
+    color: rgba(128, 144, 121, 1);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 3% 0;
+  }
